@@ -4,8 +4,8 @@ import functions
 todos = functions.get_todos()
 
 def add_todo():
-    todo = st.session_state["new_todo"]
-    todos.append((todo + "\n"))
+    new_todo = st.session_state["new_todo"]
+    todos.append((new_todo + "\n"))
     functions.write_todos(todos)
     st.session_state["new_todo"]= ""
 
