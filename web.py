@@ -9,7 +9,7 @@ def add_todo():
     functions.write_todos(todos)
     st.session_state["new_todo"]= ""
 
-st.title("My Todo App")
+st.title("<< My Todo App >>")
 st.subheader("My first web app :)")
 st.write("\"Amazing\"")
 
